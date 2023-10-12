@@ -1,0 +1,104 @@
+/* Default styles */
+
+body {
+  background-color: black;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  direction: ltr;
+}
+
+.header {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 50px;
+  color: white;
+}
+
+.master {
+  background-color: white;
+}
+
+.image {
+  background-position: right center;
+  background-image: url(images/2023_09_20_01_50_IMG_9693.png);
+  background-size: 22vw;
+  background-repeat: no-repeat;
+  height: 41vw;
+  width: 20vw;
+  position: relative;
+  left: 78vw;
+}
+
+.contentp {
+  position: relative;
+  right: 59vw;
+  padding: 4vw 0px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-size: 4vw;
+  height: 200px;
+  width: 59vw;
+  color: rgb(0, 0, 0);
+}
+
+.biography {
+  color: white;
+  margin: 0px 200px;
+  text-transform: capitalize;
+}
+
+#bi1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#bi2 {
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  margin: 50px 0px;
+}
+
+#bi3 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  border: 20px solid;
+}
+
+.last {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+}
+
+/* Media queries for responsive design */
+
+@media screen and (max-width: 768px) {
+  /* Styles for phones or smaller devices */
+
+  .biography {
+    margin: 0px 50px;
+  }
+
+  .last {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* Styles for PCs or larger devices */
+
+  .biography {
+    margin: 0px 200px;
+  }
+
+  .last {
+    font-size: 100px;
+  }
+}
